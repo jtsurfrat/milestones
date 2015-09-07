@@ -1,0 +1,266 @@
+
+body {
+    background-color: red;
+    font-size: 14pt;
+    box-sizing: border-box;
+}
+
+.hero {
+    background-color: teal;
+    overflow: hidden;
+    /*height: 600px;*/
+}
+
+header {
+    background-color: aqua;
+    position: relative;
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-bottom: 0;
+    overflow: hidden;
+    height: 500px;
+}
+
+.top_head {
+    background-color: yellow;
+    /*padding: 30px;*/
+    height: 150px;
+    margin-top: 0;
+    margin-bottom: 250px;
+    margin-right: 0;
+    position: relative;
+}
+
+.logo {
+    margin-top: 0;
+}
+
+.search {
+    background-color: red;
+    position: absolute;
+    right: 0;
+    top: 5px;
+    margin: 20px;
+    margin-right: 0;
+}
+input {
+    margin-right: 0;
+}
+
+nav {
+    padding: 15px;
+    background-color: green;
+    margin: 100px 0 0 0;
+    text-align: center;
+
+}
+
+nav a {
+    padding: 0 12px 0 12px;
+    text-decoration: none;
+    color: white;
+}
+
+.banner {
+    background-color: pink;
+    padding: 5px;
+    margin-bottom: 40px;
+    display:block;
+    margin-top: 20px;
+} 
+
+div > h2{
+    font-weight: 300;
+    color: white;
+}
+
+h2 > span {
+    font-weight: 800;
+    color: white;
+}
+.banner p {
+    color: white;
+}
+
+.banner > div {
+    margin: 0;
+    text-align: center;
+}
+
+
+/* body **************************
+**********************************/
+
+.main_content {
+    background-color: purple;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.puppy_container {
+    background-color: rgba(0,255,0 , .5);
+    padding:5px;
+    /*height: 100px;*/
+}
+
+.puppy_container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    margin: auto;
+    text-align: center;
+}
+
+.puppy_box > div {
+    background-color: grey;
+    height: 170px;
+    display:inline-block;
+    /*s*/
+    padding: 20px;
+    margin-top: -30px;
+    text-align: center;
+    /*margin: 8px;*/
+    overflow: hidden;
+    /*margin-bottom: 8px;*/
+    /*position: absolute;*/
+    /*box-sizing: border-box;*/
+}
+
+.puppy_box h4 {
+    margin-top: 0;
+    /*width: 30%;*/
+}
+
+.puppy_box:first-child {
+    order: 1;
+    margin: 4px;
+    width: 32%;
+    /*width: 30%;*/
+}
+
+.puppy_box:nth-child(2) {
+    order: 2;
+    margin: 4px;
+    width: 32%;
+    /*width: 30%;*/
+}
+
+.puppy_box:nth-child(3) {
+    order: 3;
+    margin: 4px;
+    width: 32%;
+}
+
+.puppy_button {
+    margin:0;
+    padding:0;
+}
+
+.lower_dogs {
+    display:flex;
+
+}
+
+aside {
+    height: 100px;
+    order: 1;
+    flex: 3;
+    background-color: yellow;
+    height: 600px;
+    padding-top: 8px;
+}
+
+aside > div {
+    display: flex;
+    flex-direction: column;
+    background-color: red;
+    width: 95%;
+    margin: auto;
+    overflow: hidden;
+    margin-bottom: 5px;
+}
+
+.dog_contain {
+    display: flex;
+    margin-bottom: 5px;
+}
+
+.graphic_dog {
+    order: 1;
+    height: 50px;
+    padding: 20px;
+    flex: 1;
+    background-color: blue;
+    margin-bottom: 5px;
+}
+
+.content_dog {
+    order: 2;
+    flex: 4;
+    background-color: grey;
+    padding-left: 2px;
+    margin-bottom: 5px;
+
+}
+
+.content_dog > p {
+    padding:0;
+    margin: 0;
+}
+
+.dog_tiles {
+    flex: 5;
+    order: 2;
+    background-color: pink;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.about_dog_container_1row,
+.about_dog_container_2row
+ {
+    margin: auto;
+    /*padding: 5px;*/
+    margin-top: 8px;
+    width: 210px;
+    flex-flow: row wrap;
+    /*height: 320px;*/
+    display: flex;
+    flex-direction: column;
+    background-color: blue;
+
+    /*justify-content: space-around;*/
+    align-items: flex-center;
+    /*justify-content: flex-start;*/
+
+}
+
+.media_dog {
+    flex: 1;
+    order: 1;
+    height: 200px;
+    /*width: 100%;*/
+    background-color: grey;
+
+}
+
+.info_dog {
+    order:2;
+    flex: 1;
+    /*padding: 2px;*/
+    margin: 0;
+    padding: 0;
+}
+
+.info_dog > p {
+    margin: 0;
+    padding: 0;
+}
+
+.about_dog_container {
+    flex: 1;
+}
+
+
+
+

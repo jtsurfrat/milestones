@@ -1,0 +1,120 @@
+body{
+    font-size:12pt;
+    font-family: Open Sans;
+    font-weight: 300;
+    margin: 0;
+    background-color: #0182C3;
+    padding: 8px 8px 40px 8px;
+}
+
+.container {
+    width: cover;
+    display: flex;
+    flex-flow:flex-wrap;
+    /*background-color: red;*/
+    /*background-color: #0182C3;*/
+
+    /*padding: 8px 8px 40px 8px;*/
+    
+    /*margin-top: 0;*/
+    /*height: 100%;*/
+    /*overflow: hidden;*/
+}
+
+.media {
+    flex: 1;
+    /*border-right: 8px #0182C3 solid;*/
+    margin:5px;
+    display: block;
+    /*margin-top: 0;*/
+}
+
+.media div {
+    background-color: white;
+    border: #7FC0E0 5px solid;
+    border-radius: 10px;
+    padding: 10px;
+    height: 400px;
+
+}
+
+.container .content {
+    /*flex: 1;*/
+    /*background-color: yellow;*/
+    background-color: white;
+    padding: 10px;
+}
+
+.content {
+    /*display: flex;*/
+    flex: 3;
+    text-align: left;
+    border: #7FC0E0 ;
+    border: #7FC0E0 solid 5px;
+    border-radius: 10px;
+    margin: 5px;
+
+}
+
+/******************************************** */
+ /* forms box model*/
+/******************************************** */
+
+.sign_name {
+    /*margin-left: 8%;*/
+    display: flex;
+    width: 300px;
+    margin-left: 80px;
+    flex-flow:flex-wrap;
+
+}
+
+.sign_name > label {
+    height: 20px;
+    width: 50px;
+    margin-right: 5px;
+    flex: 1;
+    text-align: right;
+}
+
+.f_name {
+    flex: 2;
+}
+
+
+.sign_up, .welcome {
+    font-family: Allan;
+    font-size: 1.87em;
+    margin-top: 0;
+   /* padding: 4px;*/
+
+}
+
+.basic_info{
+
+}
+
+.submit, .cancel {
+    padding: 4px;
+    color: white;
+    border-radius: 7px;
+    border: none;
+    margin-bottom: 3px;
+}
+
+.submit {
+    background-color: #97D062 ;
+    box-shadow: 3px 3px 1px #4D722B;
+}
+
+.cancel {
+    margin-left:4px;
+    background-color: #D00000;
+    box-shadow: 3px 3px 1px #6D2424 ;
+}
+
+.line {
+    /*padding: 3px;*/
+    margin: 5px;
+    border-bottom: 1px #CCCCCC solid;
+}

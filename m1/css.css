@@ -1,0 +1,33 @@
+body {
+    background-image: url("wall.png");
+}
+
+nav, nav a {
+    background-color: #333;
+    padding: 6px;
+    margin: 1px;
+    color: white;
+}
+
+header, footer {
+    background-color: #fff;
+    padding: 5px;
+    padding-bottom: 10px;
+    border-top: 2px solid #333;
+    border-bottom: 2px solid #333;
+}
+
+header {
+    margin-top: 10px;
+    padding: 15px;
+}
+
+footer {
+    padding: 20px;
+}
+
+ul {
+    list-style-type: none;
+    text-decoration: none;
+    margin-left: -30px;
+}
