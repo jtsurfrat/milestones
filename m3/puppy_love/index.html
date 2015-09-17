@@ -5,38 +5,40 @@
         <title>Document</title>
         <link rel="stylesheet" type="text/css" href="normalize.css">
         <link rel="stylesheet" type="text/css" href="css.css">
-
+        <link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+        <script src="https://code.jquery.com/jquery-2.1.4.js"></script>
+        <script src="main.js"></script>
     </head>
     <body>
         <div class="hero">
             <header>
                 <div class="top_head">
-                    <div class="logo">Puppy Love</div>
+                    <div class="logo"><a href="">Puppy Hate</a></div>
                     <form name="search" class="search">
-                        <input type="text" value="search">
-                        <input type="button" value="submit">
+                        <input type="text" value="Search">
+                        <input type="button" value="Search">
                     </form>
                     <nav>
-                        <a href="">HOME</a>
-                        <a href="">SERVICE</a>
-                        <a href="">PORTOLIO</a>
-                        <a href="">ABOUT</a>
-                        <a href="">MEMBERSHIP</a>
-                        <a href="">TESTIMONIALS</a>
+                        <a href="">Home</a>
+                        <a href="">Services</a>
+                        <a href="">Portfolio</a>
+                        <a href="">About</a>
+                        <a href="">Membership</a>
+                        <a href="">Testimonials</a>
                         <a href="">FAQ</a>
-                        <a href="">CONTACT</a>
+                        <a href="">Contacts</a>
                     </nav>
                 </div>
                 <div class="banner">
                     <div>
-                        <h2><span>Great</span> People, <span>Better</span> Dogs</h2>
+                        <h2><b>Great</b> People, <b>Better</b> Dogs</h2>
                         <p>Welcome to the best site on the internet. We really hope you our products because
                             we really love to make money.
                         </p>
                     </div>
                 </div> 
-            </header>
-              
+            </header>             
         </div>
         <div class="main_content">
             <div class='puppy_container'>
@@ -45,7 +47,7 @@
                         <h4>Raise a litter</h4>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                         tempor incididunt ut labore</p>
-                        <input type="submit" class="puppy_button">
+                        <input type="submit" class="help" value="Get Help">
                     </div>
                 </div>
                 <div class='puppy_box'>
@@ -53,7 +55,7 @@
                         <h4>Raise a litter</h4>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                         tempor incididunt ut labore</p>
-                        <input type="submit">
+                        <input type="submit" class="food" value="Get Food">
                     </div>
                 </div>
                 <div class='puppy_box'>
@@ -61,7 +63,7 @@
                         <h4>Raise a litter</h4>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                         tempor incididunt ut labore</p>
-                        <input type="submit">
+                        <input type="submit" class="sell" value="Sell Dogs to China">
                     </div>
                 </div>
             </div>
@@ -69,23 +71,23 @@
                 <aside>
                     <div>
                         <div class="dog_contain">
-                            <div class="graphic_dog"></div>
-                            <div class="content_dog">
-                                <p>Ralf</p>
-                                <p>This old mutt likes roll around in the dirt.</p>
+                            <div><img src='ralf.png'class="graphic_dog"></div>
+                            <div class="content_dog ralf">
+                                <h4>Ralf</h4>
+                                <p>This old mutt likes to roll in the dirt.</p>
                             </div>
                         </div>
                         <div class="dog_contain">
-                            <div class="graphic_dog"></div>
+                            <div><img src='max.png' class="graphic_dog"></div>
                             <div class="content_dog">
-                                <p>Max</p>
-                                <p>If there is ever a young pup that likes grass, it's max.</p>
+                                <h4>Max</h4>
+                                <p>If there is ever a young pup that liked grass, it's max.</p>
                             </div>
                         </div>
                         <div class="dog_contain">
-                            <div class="graphic_dog"></div>
-                            <div class="content_dog">
-                                <p>Ruddy</p>
+                            <div><img src='rudy.png' class="graphic_dog"></div>
+                            <div class="content_dog  rudy">
+                                <h4>Ruddy</h4>
                                 <p>Young and Fierce, that's all I have to say.</p>
                             </div>
                         </div>
@@ -93,49 +95,48 @@
                     </div>
                 </aside>
                 <div class="dog_tiles">
-                    <div class="about_dog_container_1row">
-                        <div class="media_dog"></div>
-                        <div class="info_dog">
-                            <p>Ralf</p>
-                            <p>This old mutt likes roll around in the dirt.</p>
+                    <div class="tile">
+                        <div><img src='ralf.png'class="media_dog"></div>
+                        <div class="info_dog ralf">
+                            <h4>Ralf</h4>
+                            <p>This old mutt likes to roll in the dirt.</p>
                         </div>  
                     </div> 
-                    <div class="about_dog_container_1row">
-                        <div class="media_dog"></div>
+                    <div class="tile">
+                        <div><img src='max.png'class="media_dog"></div>
                         <div class="info_dog">
-                            <p>Max</p>
-                            <p>If there is ever a young pup that likes grass, it's max.</p>
+                            <h4>Max</h4>
+                            <p>If there is ever a young pup that liked grass, it's max.</p>
                         </div>  
                     </div>
-                    <div class="about_dog_container_1row">
-                        <div class="media_dog"></div>
-                        <div class="info_dog">
-                            <p>Ruddy</p>
+                    <div class="tile">
+                        <div><img src='rudy.png'class="media_dog"></div>
+                        <div class="info_dog rudy">
+                            <h4>Ruddy</h4>
                             <p>Young and Fierce, that's all I have to say.</p>
                         </div>  
                     </div>
-                    <div class="about_dog_container_2row">
-                        <div class="media_dog"></div>
+                    <div class="tile">
+                        <div><img src='max.png'class="media_dog"></div>
                         <div class="info_dog">
-                            <p>Max</p>
-                            <p>If there is ever a young pup that likes grass, it's max.</p>
+                            <h4>Max</h4>
+                            <p>If there is ever a young pup that liked grass, it's max.</p>
                         </div>  
                     </div>
-                     <div class="about_dog_container_2row">
-                        <div class="media_dog"></div>
-                        <div class="info_dog">
-                            <p>Ruddy</p>
+                     <div class="tile">
+                        <img src='rudy.png'class="media_dog">
+                        <div class="info_dog rudy">
+                            <h4>Ruddy</h4>
                             <p>Young and Fierce, that's all I have to say.</p>
                         </div>  
                     </div>
-                     <div class="about_dog_container_2row">
-                        <div class="media_dog"></div>
-                        <div class="info_dog">
-                            <p>Ralf</p>
-                            <p>This old mutt likes roll around in the dirt.</p>
+                     <div class="tile">
+                        <div><img src='ralf.png'class="media_dog"></div>
+                        <div class="info_dog ralf">
+                            <h4>Ralf</h4>
+                            <p>This old mutt likes to roll in the dirt.</p>
                         </div>  
                     </div>
-
                 </div>
             </div> 
         </div>    

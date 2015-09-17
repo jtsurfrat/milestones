@@ -1,90 +1,173 @@
 
 body {
-    background-color: red;
-    font-size: 14pt;
-    box-sizing: border-box;
+    background-color: #87007F;
+    font-size: 11pt;
+    /*box-sizing: border-box;*/
+    margin: 0;
+    font-family: 'Open Sans';
+}
+
+body > div {
+    margin:0 auto;
+    margin-bottom: 0;
+    margin-top: 0;
 }
 
 .hero {
     background-color: teal;
+    /*background-image: radial-gradient(rgba(0, 164, 177, 0.6),rgba(0, 140, 163, 1)),url('bg.jpg');*/
+    background-repeat: no-repeat;
+    background-size: cover;
     overflow: hidden;
-    /*height: 600px;*/
+    /*background: 100% 100%;*/
+    /*position: fixed;*/
+    /*height: 570px;*/
 }
 
 header {
-    background-color: aqua;
-    position: relative;
-    margin-right: 100px;
-    margin-left: 100px;
+    /*background-color: aqua;*/
+    background-color: #78D4DC;
+    
+    /*position: relative;*/
+    /*text-align: center;*/
+    margin-right: 8%;
+    margin-left: 8%;
     margin-bottom: 0;
-    overflow: hidden;
-    height: 500px;
+    /*overflow: hidden;*/
+    height: 420px;
+    width: 960px;
+    margin: 0 auto;
+    /*height: 40%;*/
 }
 
 .top_head {
-    background-color: yellow;
+    /*background-color: yellow;*/
     /*padding: 30px;*/
-    height: 150px;
+    background-color: #FFA60E;
+    height: 115px;
     margin-top: 0;
-    margin-bottom: 250px;
+    padding-top: 25px;
+    /*margin-bottom: 185px;*/
+    margin-bottom: 150px;
     margin-right: 0;
     position: relative;
+    padding-bottom: 0;
 }
 
-.logo {
+.logo > a {
     margin-top: 0;
+    padding: 0;
+    /*font-family: Lobster;*/
+    /*font-size: 3em;*/
+    color: white;
+    position: absolute;
+    top:0;
+    margin-left:3px;
+    margin-top: 3px;
+    background-color: orange;
+    font-size: 1.1em;
+    font-weight: 100;
+}
+
+.logo > a:hover {
+    background-color: red;
+    padding: 1px;
 }
 
 .search {
-    background-color: red;
+    /*background-color: white;*/
+    background-color: blue;
+    /*position: absolute;
+    top: 8px;*/
+}
+
+form {
+    /*background-color: red;*/
     position: absolute;
     right: 0;
-    top: 5px;
+    top: 0;
     margin: 20px;
     margin-right: 0;
+    background-color: blue;
+    /*border: 1px #67C6CC solid;*/
+    /*color:#67C6CC;
+    background-color: #038DA0;
+    background-color: transparent;
+    color: rgba(255,255,255,.3);*/
 }
-input {
+
+input:first-child {
     margin-right: 0;
+
+    /*background-color: #F64E1A;*/
+    /*color: rgba(255,255,255,.3);*/
+    /*background-color: transparent;*/
+    /*background-color: white;*/
+    border: 1px #67C6CC solid;
+    padding:2px;
+    color:#999999;
+}
+
+input:nth-child(2){
+    /*background-color: #F64E1A;*/
+    /*border: 1px solid #F64E1A;*/
+    /*border-radius: 5px;*/
+    color: white;
+
 }
 
 nav {
+    position: absolute;
+    bottom:0;
+    right:0;
+    left:0;
+    margin: 0 auto;
     padding: 15px;
     background-color: green;
-    margin: 100px 0 0 0;
+    /*margin: 50px 0 0 0;*/
     text-align: center;
-
+    /*border-top:1px #67C6CC solid;*/
+    /*border-bottom:1px #67C6CC solid;*/
 }
 
 nav a {
-    padding: 0 12px 0 12px;
+    padding: 0 20px 0 20px;
     text-decoration: none;
     color: white;
+    font-size: 1.0em;
+    font-weight: 100;
+    text-transform: uppercase;
 }
 
 .banner {
-    background-color: pink;
-    padding: 5px;
-    margin-bottom: 40px;
+    /*background-color: pink;*/
+    background-color: #FF00FD;
+    /*padding: 2px;*/
+    margin-bottom: 10px;
     display:block;
-    margin-top: 20px;
+    margin-top: 30px;
 } 
 
 div > h2{
     font-weight: 300;
     color: white;
+    font-size: 2.3em;
+    margin-bottom: 0px;
+    padding-top: 10px;
+    /*padding-bottom: 1em;*/
+
 }
 
-h2 > span {
-    font-weight: 800;
-    color: white;
-}
 .banner p {
     color: white;
+    font-size: 1.1em;
+    padding-bottom: 1em;
 }
 
 .banner > div {
-    margin: 0;
+    margin: 0 auto;
     text-align: center;
+    /*margin-bottom: 20px;*/
 }
 
 
@@ -92,115 +175,149 @@ h2 > span {
 **********************************/
 
 .main_content {
-    background-color: purple;
-    margin-left: 100px;
-    margin-right: 100px;
+    
+    /*background-color: white;*/
+    /*background-color: blue;*/
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-bottom:0;
+    padding:0;
+    width: 960px;
+    margin: 0 auto;
+    /*margin-top: 0;*/
 }
 
 .puppy_container {
     background-color: rgba(0,255,0 , .5);
-    padding:5px;
+    /*background-color: #D6E1E7;*/
+    padding:2px;
+    /*transform: translateY(-15px);*/
     /*height: 100px;*/
 }
 
 .puppy_container {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-around;
-    margin: auto;
+    /*clear:both;*/
+    margin: 0 auto;
     text-align: center;
+    position: relative;
+    /*background-color: green;*/
+    box-sizing: border-box;
 }
 
-.puppy_box > div {
-    background-color: grey;
-    height: 170px;
-    display:inline-block;
-    /*s*/
-    padding: 20px;
-    margin-top: -30px;
-    text-align: center;
-    /*margin: 8px;*/
-    overflow: hidden;
-    /*margin-bottom: 8px;*/
-    /*position: absolute;*/
-    /*box-sizing: border-box;*/
+.puppy_container > * + * {
+    margin: 8px;
 }
 
-.puppy_box h4 {
-    margin-top: 0;
-    /*width: 30%;*/
+.puppy_box {
+    display: inline-block;
+    /*background-color: white;*/
+    width:300px;
+    height: 145px;
+    vertical-align: top;
+    /*padding: 20px;*/
+    margin:5px;
+    /*padding:0;*/
+    transform: translateY(-20px);
+    margin-bottom: 0;
+    background-color: #00FF22;
+    /*padding-bottom: 20px;*/
+    /*box-shadow: 5px 5px 3px #BAC6CC;*/
 }
 
-.puppy_box:first-child {
-    order: 1;
-    margin: 4px;
-    width: 32%;
-    /*width: 30%;*/
+.puppy_box p {
+    padding: 0 20px;
 }
 
-.puppy_box:nth-child(2) {
-    order: 2;
-    margin: 4px;
-    width: 32%;
-    /*width: 30%;*/
+
+.help {
+    /*background-color: transparent;
+    color: #F54A14;
+    border:#F54A14 solid 3px;
+    border-radius: 5px;*/
+    position:absolute;
+    bottom: 0;
+    margin: 0 auto;
+    right: 101px;
 }
 
-.puppy_box:nth-child(3) {
-    order: 3;
-    margin: 4px;
-    width: 32%;
+.food {
+    /*background-color: transparent;
+    color: #86D24A;
+    border:#86D24A solid 3px;*/
+    /*border-radius: 5px;*/
+    /*margin-bottom: 0;*/
+    position:absolute;
+    bottom: 0;
+    margin: 0 auto;
+    right: 103px;
+}   
+
+.sell {
+    /*background-color: transparent;
+    color: #41ABDC;
+    border:#41ABDC solid 3px;*/
+    /*border-radius: 5px;*/
+    position:absolute;
+    bottom: 0;
+    margin: 0 auto;
+    right: 80px;
 }
 
-.puppy_button {
-    margin:0;
-    padding:0;
-}
 
 .lower_dogs {
     display:flex;
-
+    margin-top: 0;
+    /*border: 3px solid #BAC6CC; ;*/
+    /*box-shadow: 5px 5px 5px 3px #BAC6CC;*/
+    transform:translateY(-5px);
+    /*height: 583px;*/
 }
 
 aside {
-    height: 100px;
     order: 1;
-    flex: 3;
-    background-color: yellow;
-    height: 600px;
-    padding-top: 8px;
+    flex: 5;
+    background-color: #00FF22;
+    /*background-color: white;*/
+    /*height: 500px;*/
+    padding-top: 9px;
+    margin-top: 0;
 }
 
 aside > div {
     display: flex;
     flex-direction: column;
-    background-color: red;
+    /*background-color: white;*/
+    /*background-color: yellow;*/
     width: 95%;
     margin: auto;
     overflow: hidden;
     margin-bottom: 5px;
+    /*margin-top: 0;*/
 }
 
 .dog_contain {
     display: flex;
     margin-bottom: 5px;
+    /*background-color: red;*/
 }
 
 .graphic_dog {
     order: 1;
-    height: 50px;
-    padding: 20px;
-    flex: 1;
+    height: 84px;
+    width:90px;
+    flex: 2;
+    /*padding: 20px;
     background-color: blue;
-    margin-bottom: 5px;
+    margin-bottom: 5px;*/
 }
 
 .content_dog {
     order: 2;
-    flex: 4;
-    background-color: grey;
+    flex: 7;
+    /*background-color: #D9EDF7;*/
     padding-left: 2px;
-    margin-bottom: 5px;
-
+    margin-bottom: 3px;
+    background-color: yellow;
 }
 
 .content_dog > p {
@@ -208,59 +325,125 @@ aside > div {
     margin: 0;
 }
 
-.dog_tiles {
-    flex: 5;
-    order: 2;
-    background-color: pink;
-    display: flex;
-    flex-flow: row wrap;
+.content_dog > h4 {
+    padding:0;
+    margin: 0;
+    font-weight: 900;
 }
 
-.about_dog_container_1row,
-.about_dog_container_2row
- {
-    margin: auto;
-    /*padding: 5px;*/
-    margin-top: 8px;
-    width: 210px;
-    flex-flow: row wrap;
-    /*height: 320px;*/
-    display: flex;
-    flex-direction: column;
+.rudy > p {
+    padding-right: 20px;
+}
+
+.ralf > p {
+    padding-right: 0;
+}
+
+.content_dog > p:first-child {
+    /*font-weight: 100;*/
+    /*font-size: 1.2em;*/
+    /*color: #15A5DE;*/
+    font-color: black;
+    font-weight: 600;
+}
+
+.dog_tiles {
+    flex: 7;
+    order: 2;
     background-color: blue;
+    /*background-color: white;*/
+    display: inline-block;
+    /*margin:10px 5px;*/
+    /*margin: 3px;*/
+    /*margin-top: 5px;*/
+    /*margin-left: 5px;*/
 
-    /*justify-content: space-around;*/
-    align-items: flex-center;
-    /*justify-content: flex-start;*/
+}
 
+.tile:first-child {
+    margin-left: 10px;
+}
+
+.tile:nth-child(4) {
+    margin-left: 10px;
+    transform: translateY(-9px);
+}
+
+.tile:nth-child(5) {
+    transform: translateY(-9px);
+}
+
+.tile:nth-child(6) {
+    transform: translateY(-9px);
+}
+
+.tile {
+    /*margin: auto;*/
+    width: 28%;
+    display: inline-block;
+    /*margin: 5px;*/
+    background-color: blue;
+    vertical-align: top;
+    margin: 10px 3px;
+    /*margin:10px 5px;*/
+    /*margin-top: 10px;*/
+    width:160px;
+
+}
+
+.tiles > div {
+    padding:0;
+    
+    
 }
 
 .media_dog {
-    flex: 1;
-    order: 1;
-    height: 200px;
-    /*width: 100%;*/
-    background-color: grey;
+    /*flex: 1;
+    order: 1;*/
+    height: 160px;
+    width: 100%;
+    background-color: grey; 
+}
+
+
+
+.info_dog {
+    /*order:2;
+    flex: 1;*/
+    /*padding: 2px;*/
+    /*margin: 0px;*/
+    padding: 0;
+    background-color: yellow;
 
 }
 
-.info_dog {
-    order:2;
-    flex: 1;
-    /*padding: 2px;*/
+.info_dog > h4 {
     margin: 0;
+    margin-top: -5px;
     padding: 0;
+    background-color: yellow;
+    font-weight: 900;
+    border-bottom: 2px black solid;
+    /*font-size: 1.1em;*/
+    
 }
 
 .info_dog > p {
-    margin: 0;
-    padding: 0;
+    /*background-color:#83D146;*/
+    background-color: yellow;
+    margin:0;
+    /*font-weight: 600;*/
+    /*border-bottom: 2px black solid;*/
+    /*margin-top: -3px;*/
+    /*margin-bottom: 0;
+    padding-bottom: 0;*/
 }
 
-.about_dog_container {
+/*.info_dog > p:nth-child(2) {
+    background-color: #E1F0D6
+    background-color: yellow;
+}*/
+
+.tiles {
     flex: 1;
 }
-
-
-
-
