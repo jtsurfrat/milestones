@@ -350,7 +350,15 @@ aside > div {
     color: #0089D4;
 }
 
-.rudy > p {
+.dog > p {
+    padding-right: 20px;
+}
+
+/*.dog_tiles .dog > p {
+    padding-right: 33px;
+}*/
+
+/*.rudy > p {
     padding-right: 20px;
 }
 
@@ -359,8 +367,8 @@ aside > div {
 }
 
 .ralf > p {
-    padding-right: 0;
-}
+    padding-right: 20px;
+}*/
 
 .content_dog > p:first-child {
     /*font-weight: 100;*/
